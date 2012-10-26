@@ -5,7 +5,8 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+# The following is from the Ruby on Rails 3 Tutorial, to keep Heroku from loading this.
+gem 'sqlite3-ruby', '1.2.5', :group => :development
 
 gem 'json'
 
